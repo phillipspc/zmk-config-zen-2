@@ -53,12 +53,12 @@
 // |  `   |     |     |     |     |     |   |     |Brt D|Brt U|     |     | BKSP |
 // |      |     |     |     |     |     |   | Lft | Dwn |  Up | Rght|     |      |
 // |      |     |     |     |     |     |   | Prev|Vol D|Vol U| PP  | Next|      |
-//                    |     |     |     |   |     |     |     |
+//                    |     |     | ALT |   |     |     |     |
                         bindings = <
    &kp GRAVE &trans &trans &trans &trans &trans    &trans     &kp F14      &kp F15      &trans       &trans     &kp BSPC
    &trans    &trans &trans &trans &trans &trans    &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &trans     &trans
    &trans    &trans &trans &trans &trans &trans    &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_PP     &kp C_NEXT &trans
-                           &trans &trans &trans    &trans &trans &trans
+                           &trans &trans &kp LALT  &trans &trans &trans
                         >;
                 };
 
