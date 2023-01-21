@@ -35,12 +35,12 @@
                 symbol_layer {
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
-// |  `   |  $  |  %  |  ^  |  &  |  *  |   |     |  !  |  (  |  )  |     | BKSP |
+// |  ~   |  $  |  %  |  ^  |  &  |  *  |   |     |  !  |  (  |  )  |     | BKSP |
 // | MO 3 |     |  -  |  +  |  =  |     |   |     |  @  |  [  |  ]  |  |  |  \   |
 // |      |     |     |     |     |     |   |     |  #  |  {  |  }  |     |      |
 //                    |     |     |     |   |  _  |     |     |
                         bindings = <
-   &kp GRAVE &kp DLLR &kp PRCNT &kp CARET &kp AMPS  &kp STAR    &trans &kp EXCL &kp LPAR &kp RPAR &trans   &kp BSPC
+   &kp TILDE &kp DLLR &kp PRCNT &kp CARET &kp AMPS  &kp STAR    &trans &kp EXCL &kp LPAR &kp RPAR &trans   &kp BSPC
    &mo 3     &trans   &kp MINUS &kp PLUS  &kp EQUAL &trans      &trans &kp AT   &kp LBKT &kp RBKT &kp PIPE &kp BSLH
    &trans    &trans   &trans    &trans    &trans    &trans      &trans &kp HASH &kp LBRC &kp RBRC &trans   &trans
                                 &trans    &trans    &trans      &kp UNDER &trans &trans
@@ -50,12 +50,12 @@
                 special_layer {
                         label = "MVMT";
 // -----------------------------------------------------------------------------------------
-// |  ~   |     |     |     |     |     |   |     |Brt D|Brt U|     |     | BKSP |
+// |  `   |     |     |     |     |     |   |     |Brt D|Brt U|     |     | BKSP |
 // |      |     |     |     |     |     |   | Lft | Dwn |  Up | Rght|     |      |
 // |      |     |     |     |     |     |   | Prev|Vol D|Vol U| PP  | Next|      |
 //                    |     |     | ALT |   |     |     |     |
                         bindings = <
-   &kp TILDE  &trans       &trans       &trans       &trans &trans    &trans     &kp F14      &kp F15      &trans       &trans     &kp BSPC
+   &kp GRAVE  &trans       &trans       &trans       &trans &trans    &trans     &kp F14      &kp F15      &trans       &trans     &kp BSPC
    &trans     &trans       &trans       &trans       &trans &trans    &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &trans     &trans
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans    &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_PP     &kp C_NEXT &trans
                                         &trans       &trans &kp LALT  &trans &trans &trans
